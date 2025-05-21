@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelEase - Book Your Dream Vacation</title>
+    <meta name="description" content="Book travel appointments online without phone calls or emails. Find the best destinations and accommodations for your next trip.">
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="TravelEase - Book Travel Appointments Online">
+    <meta property="og:description" content="Book travel appointments online without phone calls or emails. Find the best destinations and accommodations for your next trip.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://travelease.com">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <i class="fas fa-globe"></i>
+                    <span>TravelEase</span>
+                </div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#hotels">Hotels</a></li>
+                    <li><a href="#how-it-works">How it Works</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact" class="btn btn-primary">Book Now</a></li>
+                </ul>
+                <div class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Book Your Dream Vacation <span>Without Hassle</span></h1>
+                    <p>No phone calls. No emails. Just a few clicks to secure your perfect getaway.</p>
+                    
+                    <div class="search-box">
+                        <form>
+                            <div class="form-group">
+                                <label>Where to?</label>
+                                <div class="input-icon">
+                                    <i class="fas fa-search"></i>
+                                    <input type="text" placeholder="Search destinations">
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label>Check in</label>
+                                <div class="input-icon">
+                                    <i class="fas fa-calendar"></i>
+                                    <input type="date">
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label>Check out</label>
+                                <div class="input-icon">
+                                    <i class="fas fa-calendar"></i>
+                                    <input type="date">
+                                </div>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+            <div class="container">
+                <h2>Why Book With TravelEase?</h2>
+                <p class="section-subtitle">Our platform simplifies travel planning with a seamless booking experience.</p>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                        <h3>Online Booking</h3>
+                        <p>Book appointments without making phone calls or sending emails.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Time Saving</h3>
+                        <p>Skip the back and forth communication. Book in minutes.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-dollar-sign"></i>
+                        </div>
+                        <h3>Best Prices</h3>
+                        <p>Access exclusive deals and special offers not available elsewhere.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Secure Booking</h3>
+                        <p>Your payment and personal information are always protected.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Destinations Section -->
+        <section class="destinations" id="destinations">
+            <div class="container">
+                <h2>Popular Destinations</h2>
+                <p class="section-subtitle">Explore our most booked destinations around the world</p>
+                
+                <div class="destination-grid">
+                    <div class="destination-card">
+                        <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400" alt="Paris, France">
+                        <div class="destination-content">
+                            <h3>Paris, France</h3>
+                            <div class="destination-info">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>126 properties</span>
+                            </div>
+                            <a href="#" class="btn btn-light">Explore <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="destination-card">
+                        <img src="https://images.unsplash.com/photo-1539367628448-4bc5c9d171c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400" alt="Bali, Indonesia">
+                        <div class="destination-content">
+                            <h3>Bali, Indonesia</h3>
+                            <div class="destination-info">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>214 properties</span>
+                            </div>
+                            <a href="#" class="btn btn-light">Explore <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="destination-card">
+                        <img src="https://images.unsplash.com/photo-1522083165195-3424ed129620?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400" alt="New York, USA">
+                        <div class="destination-content">
+                            <h3>New York, USA</h3>
+                            <div class="destination-info">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>305 properties</span>
+                            </div>
+                            <a href="#" class="btn btn-light">Explore <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="view-all">
+                    <a href="#">View all destinations <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section class="how-it-works" id="how-it-works">
+            <div class="container">
+                <h2>How TravelEase Works</h2>
+                <p class="section-subtitle">Book your travel appointments in three simple steps</p>
+                
+                <div class="steps-grid">
+                    <div class="step-card">
+                        <div class="step-icon">
+                            <i class="fas fa-search"></i>
+                            <span class="step-number">1</span>
+                        </div>
+                        <h3>Search Destinations</h3>
+                        <p>Browse through our curated list of destinations and find the perfect one for your travel plans.</p>
+                    </div>
+                    
+                    <div class="step-card">
+                        <div class="step-icon">
+                            <i class="fas fa-calendar"></i>
+                            <span class="step-number">2</span>
+                        </div>
+                        <h3>Choose Your Dates</h3>
+                        <p>Select your check-in and check-out dates for your stay to see available properties.</p>
+                    </div>
+                    
+                    <div class="step-card">
+                        <div class="step-icon">
+                            <i class="fas fa-check-circle"></i>
+                            <span class="step-number">3</span>
+                        </div>
+                        <h3>Instant Confirmation</h3>
+                        <p>Receive instant confirmation of your booking without any calls or emails needed.</p>
+                    </div>
+                </div>
+                
+                <div class="cta-button">
+                    <a href="#" class="btn btn-primary">Start Booking Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hotels Section -->
+        <section class="hotels" id="hotels">
+            <div class="container">
+                <h2>Featured Hotels</h2>
+                <p class="section-subtitle">Handpicked accommodations for an unforgettable stay</p>
+                
+                <div class="hotels-grid">
+                    <div class="hotel-card">
+                        <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400" alt="Luxury Ocean View">
+                        <div class="hotel-content">
+                            <h3>Luxury Ocean View</h3>
+                            <div class="hotel-location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Bali, Indonesia</span>
+                            </div>
+                            <div class="hotel-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="hotel-features">
+                                <span>Swimming Pool</span>
+                                <span>Spa</span>
+                                <span>Restaurant</span>
+                            </div>
+                            <div class="hotel-price">
+                                <div class="price">$299<span>/night</span></div>
+                                <a href="#" class="btn btn-primary">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="hotel-card">
+                        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400" alt="Urban Oasis">
+                        <div class="hotel-content">
+                            <h3>Urban Oasis</h3>
+                            <div class="hotel-location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>New York, USA</span>
+                            </div>
+                            <div class="hotel-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="hotel-features">
+                                <span>Gym</span>
+                                <span>Rooftop Bar</span>
+                                <span>Business Center</span>
+                            </div>
+                            <div class="hotel-price">
+                                <div class="price">$359<span>/night</span></div>
+                                <a href="#" class="btn btn-primary">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="hotel-card">
+                        <img src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400" alt="Historic Boutique">
+                        <div class="hotel-content">
+                            <h3>Historic Boutique</h3>
+                            <div class="hotel-location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Paris, France</span>
+                            </div>
+                            <div class="hotel-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="hotel-features">
+                                <span>Concierge</span>
+                                <span>Fine Dining</span>
+                                <span>City Views</span>
+                            </div>
+                            <div class="hotel-price">
+                                <div class="price">$329<span>/night</span></div>
+                                <a href="#" class="btn btn-primary">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="view-all">
+                    <a href="#">View all hotels <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-form">
+                        <h2>Contact Us</h2>
+                        <p>Have questions about booking? Fill out the form and our team will get back to you shortly.</p>
+                        
+                        <form id="contactForm">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="firstName">First Name</label>
+                                    <input type="text" id="firstName" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastName">Last Name</label>
+                                    <input type="text" id="lastName" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="destination">Interested Destination</label>
+                                <select id="destination">
+                                    <option value="" selected disabled>Select a destination</option>
+                                    <option value="bali">Bali, Indonesia</option>
+                                    <option value="paris">Paris, France</option>
+                                    <option value="new-york">New York, USA</option>
+                                    <option value="tokyo">Tokyo, Japan</option>
+                                    <option value="santorini">Santorini, Greece</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" rows="4" required></textarea>
+                            </div>
+                            
+                            <div class="form-group checkbox">
+                                <input type="checkbox" id="consent">
+                                <label for="consent">I agree to receive updates about travel deals and offers.</label>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                    
+                    <div class="faq">
+                        <h2>Frequently Asked Questions</h2>
+                        
+                        <div class="accordion">
+                            <div class="accordion-item">
+                                <div class="accordion-header">
+                                    <h3>How does the booking process work?</h3>
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="accordion-content">
+                                    <p>Our booking process is simple. Search for your desired destination, select the dates, choose a hotel, and complete the booking form. You'll receive an instant confirmation without any phone calls or emails required.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="accordion-item">
+                                <div class="accordion-header">
+                                    <h3>Can I modify or cancel my booking?</h3>
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="accordion-content">
+                                    <p>Yes, you can modify or cancel your booking through your account dashboard. Cancellation policies vary by property, so please check the specific terms before booking.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="accordion-item">
+                                <div class="accordion-header">
+                                    <h3>Are there any booking fees?</h3>
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="accordion-content">
+                                    <p>We don't charge any additional booking fees. The price you see is the price you pay. Some properties may have their own service fees, which will be clearly indicated before you confirm your booking.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="accordion-item">
+                                <div class="accordion-header">
+                                    <h3>Is my payment secure?</h3>
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="accordion-content">
+                                    <p>Absolutely. We use industry-standard encryption and secure payment processors to ensure your financial information is protected at all times.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="logo">
+                        <i class="fas fa-globe"></i>
+                        <span>TravelEase</span>
+                    </div>
+                    <p>Book your travel appointments online without phone calls or emails. Find the best destinations and accommodations for your next trip.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#destinations">Destinations</a></li>
+                        <li><a href="#hotels">Hotels</a></li>
+                        <li><a href="#how-it-works">How It Works</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Popular Destinations</h4>
+                    <ul>
+                        <li><a href="#">Bali, Indonesia</a></li>
+                        <li><a href="#">Paris, France</a></li>
+                        <li><a href="#">New York, USA</a></li>
+                        <li><a href="#">Santorini, Greece</a></li>
+                        <li><a href="#">Tokyo, Japan</a></li>
+                        <li><a href="#">Sydney, Australia</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contact Information</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> <span>123 Travel Street, Booking City, 10001</span></li>
+                        <li><i class="fas fa-envelope"></i> <span>contact@travelease.com</span></li>
+                        <li><i class="fas fa-phone"></i> <span>+1 (555) 123-4567</span></li>
+                        <li><i class="fas fa-clock"></i> <span>Mon-Fri: 9AM - 6PM</span></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 TravelEase. All rights reserved.</p>
+                <div class="footer-policies">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
