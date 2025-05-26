@@ -17,7 +17,7 @@ resource "aws_instance" "ansible" {
     tags = {
         Name = "ansible_instance"
     }
-    security_groups = ["Launch-wizard-1"] # Replace with your security group names
+    # security_groups = ["Launch-wizard-1"] # Replace with your security group names
     vpc_security_group_ids = ["sg-0788747c9db0c4966"]
     root_block_device {
         volume_size = 28 # Size in GB, adjust as needed
